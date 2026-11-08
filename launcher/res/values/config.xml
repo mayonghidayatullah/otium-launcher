@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher settings. Edit, then rebuild.
+  Most of this can also be changed on the TV: Setting > Dock.
+-->
+<resources>
+    <!-- Default dock apps, left to right. Apps that aren't installed are skipped. -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.disney.disneyplus</item>
+        <item>com.spotify.tv.android</item>
+    </string-array>
+
+    <!-- Never shown as tiles: add system helper packages of your TV here. -->
+    <string-array name="hidden_apps">
+    </string-array>
+
+    <!-- The TV's Live TV / tuner app, listed last in the sources menu. Empty to leave it out.
+         Common ones: com.mediatek.wwtv.tvcenter (Xiaomi, many MediaTek sets),
+         com.tcl.tv (TCL), com.google.android.tv (Google Live Channels), com.sony.dtv.tvx (Sony). -->
+    <string name="live_tv_package" translatable="false"></string>
+
+    <!-- The manufacturer's own source picker, used if switching to an input directly fails. Empty to skip. -->
+    <string name="input_picker_package" translatable="false"></string>
+
+    <!-- Tiles per row in the grid. -->
+    <integer name="columns">5</integer>
+</resources>

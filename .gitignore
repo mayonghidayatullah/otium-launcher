@@ -1,0 +1,5 @@
+launcher/build/
+*.keystore
+*.bak
+*.apk
+launcher/assets/videos/*.mp4
