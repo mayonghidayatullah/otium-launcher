@@ -36,6 +36,10 @@ Then pick videos in Settings > Choose video.
 
 The package name is `com.mayong.otium`.
 
+## Build on macOS
+
+Run `./setup.sh` once, then `cd launcher && ./build-and-install.sh`.
+
 ## Build on Termux (no PC needed)
 
     pkg install openjdk-17 aapt2 apksigner d8 zip
