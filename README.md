@@ -67,3 +67,6 @@ Not affiliated with Xiaomi, Google, or any streaming service. Brand names belong
 ## License
 
 MIT. See LICENSE.
+
+## Acknowledgments
+Built with the help of Claude (Anthropic), which assisted with code and build scripts.
