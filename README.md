@@ -1,5 +1,7 @@
 # Otium Launcher
 
+<img src="docs/screenshot.png" width="720">
+
 Apple TV style home launcher for Android TV, tuned for low-RAM sets (tested on Xiaomi TV A32, 1.5 GB RAM, Android 11).
 
 Based on the original [tv-home](https://github.com/mihirgupta0900/tv-home) by Mihir Gupta (MIT). Modifications by Mayong Hidayatullah.
